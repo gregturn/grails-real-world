@@ -1,0 +1,1 @@
+<g:link controller="application" action="resetPassword" params="[token:hashcode]" absolute="true">Click to reset your password.</g:link>

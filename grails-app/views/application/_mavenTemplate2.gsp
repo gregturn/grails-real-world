@@ -1,0 +1,1 @@
+<g:createLink controller="application" action="data2" absolute="true"/>

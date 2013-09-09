@@ -1,0 +1,12 @@
+/*!
+ * Custom CSS for this application
+ *
+ * Copyright 2013 VMware
+ */
+
+#footer {
+  background-color: #f5f5f5;
+}
+.container[role="main"] {
+  padding-bottom: 60px;
+}
