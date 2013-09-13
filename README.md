@@ -8,7 +8,7 @@ To run the code follow these steps:
 
 2. Download and launch the proxy Grails app:
 
-```sh
+```
 $ git clone https://github.com/gregturn/grails-real-world
 $ cd grails-real-world
 $ grails run-app
@@ -18,21 +18,21 @@ It was built with Grails 2.2.3, so if your version is different, you might run i
 
 3. In another shell, go to the sample app that uses the proxy.
 
-```sh
+```
 $ cd grails-real-world/sample-app
 $ mvn clean package
 ```
 
 4. Clean out your maven repository's spring-web artifacts.
 
-```sh
+```
 $ cd ~/.m2/repository/org/springframework/
 $ rm -rf springweb*
 ```
 
 5. Finally, run the app.
 
-```sh
+```
 $ java -jar target/gs-rest-hateoas-0.1.0.jar
 ```
 
