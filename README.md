@@ -1,12 +1,14 @@
 # Case Study: Grails in the Real World
 
-This is the code repository for my talk at Spring One 2GX 2013.
+This is the code repository for my talk at Spring One 2GX 2013. You can see the video session at http://www.infoq.com/presentations/grails-case-study.
 
 To run the code follow these steps:
 
 1. Install MongoDB for file caching.
 
-2. Download and launch the proxy Grails app:
+2. You HAVE to set up your own Gmail account to use the Spring Mail features. Replace these settings in `grails-app/conf/Config.groovy`.
+
+3. Download and launch the proxy Grails app:
 
 ```
 $ git clone https://github.com/gregturn/grails-real-world
@@ -16,14 +18,14 @@ $ grails run-app
 
 It was built with Grails 2.2.3, so if your version is different, you might run into issues.
 
-3. In another shell, go to the sample app that uses the proxy.
+4. In another shell, go to the sample app that uses the proxy.
 
 ```
 $ cd grails-real-world/sample-app
 $ mvn clean package
 ```
 
-4. Clean out your maven repository's spring-web artifacts.
+5. Clean out your maven repository's spring-web artifacts.
 
 ```
 $ cd ~/.m2/repository/org/springframework/
