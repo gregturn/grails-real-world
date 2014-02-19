@@ -116,7 +116,7 @@ grails.plugins.springsecurity.filterChain.chainMap = [
 mavenDownloadWhitelist = [
 	"org/springframework/spring-webmvc"	
 ]
-email.address = "greg.turnquist.springone2gx@gmail.com"
+email.address = "your_own_gmail_account@gmail.com"
 email.password = "sup3r s3cre!"
 email.debug = "true"
 repo = "http://repo.springsource.org/libs-snapshot"
